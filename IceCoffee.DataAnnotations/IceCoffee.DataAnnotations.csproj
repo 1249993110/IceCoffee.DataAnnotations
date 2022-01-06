@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
-	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-	  <Product>IceCoffee</Product>
-	  <Description>The standard DataAnnotations localization</Description>
-	  <Copyright>Copyright (c) 2022 IceCoffee</Copyright>
-	  <PackageProjectUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</PackageProjectUrl>
-	  <RepositoryUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</RepositoryUrl>
-	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <Authors>IceCoffee</Authors>
-	  <Company>LuoShuiTianYi</Company>
-	  <Version>1.0.0.0</Version>
-	  <GenerateDocumentationFile>false</GenerateDocumentationFile>
-	  <NoWarn>$(NoWarn);1591</NoWarn>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard1.0</TargetFramework>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Product>IceCoffee</Product>
+		<Description>The standard DataAnnotations localization</Description>
+		<Copyright>Copyright (c) 2022 IceCoffee</Copyright>
+		<PackageProjectUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</RepositoryUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Authors>IceCoffee</Authors>
+		<Company>LuoShuiTianYi</Company>
+		<Version>1.0.0.0</Version>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<None Include="..\LICENSE">
@@ -25,5 +25,5 @@
 
 		<None Include="..\README.md" />
 	</ItemGroup>
-	
+
 </Project>
