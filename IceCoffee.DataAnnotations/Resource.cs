@@ -1,4 +1,4 @@
-﻿namespace IceCoffee.AspNetCore.Resources
+﻿namespace IceCoffee.DataAnnotations
 {
     public struct Resource
     {
