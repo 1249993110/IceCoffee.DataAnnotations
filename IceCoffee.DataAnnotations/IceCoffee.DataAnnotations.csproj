@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net45</TargetFrameworks>
+		<TargetFrameworks>net8.0;net6.0;netstandard2.0;net462</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Authors>IceCoffee</Authors>
 		<Company>LuoShuiTianYi</Company>
-		<Copyright>Copyright (c) 2022 IceCoffee</Copyright>
+		<Copyright>Copyright (c) 2023 IceCoffee</Copyright>
 		<Description>A simple AspNetCore library</Description>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -20,7 +20,7 @@
 		<PackageProjectUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<RepositoryUrl>https://github.com/1249993110/IceCoffee.DataAnnotations</RepositoryUrl>
-		<Version>1.1.0</Version>
+		<Version>1.2.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
